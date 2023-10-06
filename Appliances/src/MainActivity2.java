@@ -8,7 +8,7 @@ public class MainActivity2 {
                 scanner.nextLine(); // Consume newline
 
                 // Create an array to store Appliance objects
-                Appliances[] appliances = new Appliances[numberOfAppliances];
+                Appliances[ ] appliances = new Appliances[numberOfAppliances];
 
                 // Input appliance information in a loop
                 for (int i = 0; i < numberOfAppliances; i++) { 
@@ -24,7 +24,7 @@ public class MainActivity2 {
                         appl.setCategory(scanner.nextLine());
 
                   
-                        appliances[i] = appl;
+                        appliances[ i ] = appl;
                     }
 
                 // Print information about selling appliances

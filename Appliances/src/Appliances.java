@@ -45,4 +45,5 @@ class Appliances{
         public String getCategory() {
                 return category;
             }
+            
     }
