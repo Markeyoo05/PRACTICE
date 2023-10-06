@@ -53,7 +53,7 @@ public class MathOperations
                   System.out.println("Program terminated, Goodbye! ");
                 
              }
-             System.out.println("Continue [1 - yes , 0 - no ? ");
+             System.out.print("Continue [1 - yes , 0 - no ? ] ");
              int input1 = input.nextInt();
              
              if (input1 !=1){ 
